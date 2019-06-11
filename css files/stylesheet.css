@@ -1,0 +1,50 @@
+.row {
+     background-color:rgb(177, 174, 174);
+
+} 
+.col1{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color: bisque;
+    
+}
+
+.col2{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color:yellow;
+    
+}
+
+.col3{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(201, 255, 196);
+    
+}
+
+.col4{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(231, 110, 181);
+    
+}
+
+.col5{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(238, 160, 65);
+    
+}
+.col6{
+    margin: 3px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(170, 252, 170);
+    
+}

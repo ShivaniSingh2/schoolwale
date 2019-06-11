@@ -1,0 +1,48 @@
+<html>
+<head>
+<title> add product by customer </title>
+<script>
+function fetchproduct(str)
+{
+ var req=new XMLHttpRequest();
+ 
+  req.onreadystatechange=function() {
+    if(req.readyState==4&&req.status==200)
+	{	
+	  
+	  document.getElementById("product").innerHTML=req.responseText;
+	  
+	}
+  
+  };
+   req.open("GET","http://localhost/project/pro.php?category="+str,true);
+  req.send();
+}
+</script>
+</head>
+<body>
+<form action="#" method="post">
+
+<select name="category" onchange="fetchproduct(this.value)">
+    <option>book</option>
+	<option>shoes</option>
+	<option>stationary</option>
+	<option>dress</option>
+	<option>bag</option>
+</select>
+<br></br>
+<select name="product name" id="product">
+    <option >select category</option>
+	
+</select>
+</br></br>
+<label for="stock">Stock</label>
+<input  type="number" name="stock"/>
+<br> </br> 
+<label for="vprice"> Price </label>
+<input  type="float" name="vprice"/> <br> </br>
+
+</form>
+
+</body>
+</html>

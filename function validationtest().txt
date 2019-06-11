@@ -1,0 +1,8 @@
+ function validationtest()
+ {
+   var eml = document.getElementByName("email");
+   if (eml.value == "")
+   {
+    alert("The field marked in red can't be blank.");
+   }
+  }

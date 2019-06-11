@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+ Admin
+</title>
+</head>
+<BODY>
+	<form action="product_entry.php" method="post">
+	Product ID:<input type = "text" name = "pid" id = "pid" /> <br/><br/>
+	Product Name:<input type = "text" name = "pname" id = "pname" /> <br/><br/>
+	Price:<input type = "text" name = "price" id = "price" /> <br/><br/>
+	Category:<SELECT NAME="category">
+                 <OPTION VALUE ="book"> Books </OPTION>
+                 <OPTION VALUE ="shoes"> Shoes </OPTION>
+                 <OPTION VALUE ="stationary"> Stationary </OPTION>
+                 <OPTION VALUE ="dress"> Dress </OPTION>
+                 <OPTION VALUE ="bag"> Bag </OPTION>
+		 </SELECT>
+	<br/><br/>
+
+	<ul TYPE = "SQUARE">
+	<li> Books
+	<ul>
+	<li> Class:<input type = "text" name = "aclass" id = "aclass" /> </li> <br/>
+	<li> Subject:<input type = "text" name = "asub" id = "asub" /> </li> <br/>
+	<li> Publication:<input type = "text" name = "apub" id = "apub" /> </li> <br/>
+	</ul>
+	</li> <br/>
+	</ul>
+
+	<ul TYPE = "SQUARE">
+	<li> Shoes
+	<ul>
+	<li> Company:<input type = "text" name = "bcomp" id = "bcomp" /> </li> <br/>
+	<li> Size:<input type = "text" name = "bsize" id = "bsize" /> </li> <br/>
+	<li> Colour:<input type = "text" name = "bcolour" id = "bcolour" /> </li> <br/>
+	</ul>
+	</li> <br/>
+	</ul>
+
+	<ul TYPE = "SQUARE">
+	<li> Stationary
+	<ul>
+	<li> Company:<input type = "text" name = "ccomp" id = "ccomp" /> </li> <br/>
+	<li> Colour:<input type = "text" name = "ccolour" id = "ccolour" /> </li> <br/>
+	</ul>
+	</li> <br/>
+	</ul>
+
+	<ul TYPE = "SQUARE">
+	<li> Dress
+	<ul>
+	<li> School:<input type = "text" name = "dschool" id = "dschool" /> </li> <br/>
+	<li> Size:<input type = "text" name = "dsize" id = "dsize" /> </li> <br/>
+	</ul>
+	</li> <br/>
+	</ul>
+
+	<ul TYPE = "SQUARE">
+	<li> Bag
+	<ul>
+	<li> Company:<input type = "text" name = "ecomp" id = "ecomp" /> </li> <br/>
+	<li> Colour:<input type = "text" name = "ecolour" id = "ecolour" /> </li> <br/>
+	<li> Size:<input type = "text" name = "esize" id = "esize" /> </li> <br/>
+	</ul>
+	</li> <br/>
+	</ul>
+    
+     <input type = "Submit" name = "submit" value = "Submit"/></form>
+</body>
+</html>

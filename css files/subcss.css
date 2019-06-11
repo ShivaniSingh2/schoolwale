@@ -1,0 +1,49 @@
+.row1{
+    background-color: aliceblue;
+    
+}
+.col1{
+    margin: 1px;
+    min-height: 300px;
+    text-align: center;
+    background-color: bisque;
+    
+}
+.col2{
+    margin: -5px;
+    min-height: 300px;
+    text-align: center;
+    background-color:yellow;
+    
+}
+
+.col3{
+    margin: -5px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(201, 255, 196);
+   
+}
+
+.col4{
+    margin:1px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(231, 110, 181);
+   
+}
+
+.col5{
+    margin:1px;
+    min-height: 300px;
+    text-align: center;
+    background-color: rgb(238, 160, 65);
+    
+}
+
+.col{
+    margin: 1px;
+    min-height: 380px;
+    text-align: center;
+    background-color: rgb(159, 199, 16);
+}

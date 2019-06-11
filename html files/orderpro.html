@@ -1,0 +1,37 @@
+<html>
+<head>
+<title> Order products </title>
+
+</head>
+<body>
+  <form action="orderpro.php" method="post">
+    <label for="name"> Name </label>
+    <input type="text" name="name"/> <br> </br>
+
+    <label for="add"> Address </label>
+    <input type="text" name="add"/> <br> </br>
+
+    <label for="pin"> Pin Code </label>
+    <input type="text" name="pin"/> <br> </br>
+
+    <label for="price"> Total Price </label>
+    <input type="text" name="price"/> <br> </br>
+     
+    Transaction Mode<br>
+
+    <input  type="radio" name="mode" value="cod"/>
+    <label for="cod"> Cash on Delivery </label>
+
+    <input  type="radio" name="mode" value="nb"/>
+    <label for="nb"> Net Banking  </label> <br>
+    <br>
+     
+    <label for="oderid"> Order Id</label>
+    <input type="text" name="orderid" />
+
+     <input type ="submit" />
+    </form>
+   
+</body> 
+</html>
+    
